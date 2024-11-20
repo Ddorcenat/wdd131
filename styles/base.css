@@ -1,0 +1,186 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.2em;
+    gap: 2rem;
+    background-color: #003366;
+}
+hr{
+    width: 80%;
+}
+
+span.name {
+    color:yellow;
+}
+
+html,
+body {
+    height: 18036;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#card,
+content {
+    display: block;
+
+}
+
+body {
+    display: block;
+    line-height: 1, 5;
+    color: #1f969a;
+    font-size: 22px;
+    font-family: "Asul", "Noto Serif";
+}
+
+header {
+    flex-direction: column;
+    text-align: center;
+    background-color: #6897c5;
+    justify-content: space-around;
+    display: flex;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff5722;
+    color: blue;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.profil {
+    width: 128px;
+    height: auto;
+    margin-right: 2rem;
+}
+
+.content img {
+    float: right;
+    margin-right: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    width: 120px;
+    height: auto;
+}
+
+.contry img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contry {
+    overflow: hidden;
+}
+
+
+.content p {
+    text-align: justify;
+}
+
+.content h2 {
+    float: center;
+}
+
+main {
+    max-width: auto;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #003366;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--nav-background-color);
+    color: white;
+    font-size: 0.9em;
+    background-color: #003366;
+}
+
+.flag-container {
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+    width: 150px;
+}
+
+.flag {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.flag-caption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #555;
+    text-align: center;
+}
+
+.contry>p {
+    text-align: justify;
+    overflow: hidden;
+}
+
+#lastModified {
+    color: yellow
+}
