@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-size: 1.2em;
+    height: 100vh;
+}
+
+/* New code from description */
+header {
+	background-color: #bbb;
+	display: grid;
+	grid-gap: 1rem;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px #333;
+}
+
+
+
+body {
+	font-family: "Roboto", Courier;
+}
+
+/* mobile **************************/
+header {
+	background-color: #0c457f;
+	display: grid;
+	grid-gap: 1rem;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 30px #333;
+}
+
+header,
+main {
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+    color: white;
+    font-family: "Roboto", Courier, monospace;
+}
+
+nav {
+	background-color: #36454f;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: left;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: larger;
+}
+
+nav a:hover {
+	text-decoration: underline double;
+	background-color: #eee;
+	color: #000;
+}
+
+.active {
+	color: rgb(238, 140, 36);
+}
+
+/* header{
+    display: block;
+    color: white;
+    background-color: #003366;
+} */
+
+nav {
+    color: white;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header nav ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+h2 {
+    font-family: "Roboto", Courier, monospace;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-family: "Roboto", Courier, monospace;
+    text-align: center;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+img {
+max-width: 100%;
+border: 5px solid white;
+box-shadow: 2px 3px 3px 2xp #003366;
+}
+
+.content {
+    display: grid;
+}
+
+/* @media screen and (min-width: 1000px) {
+    .content{
+        gap: 50px
+    }
+} */
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    /* background-color: var(--nav-background-color); */
+    color: white;
+    font-size: 0.9em;
+    background-color: #0c457f;
+    margin-top: 3rem; /* this move the footer down */
+}
+
+

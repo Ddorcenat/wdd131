@@ -1,0 +1,58 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+/* New codes fro, preofessor's example */
+
+/* Larger Views ******************************/
+@media (min-width: 740px) {
+	header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav ul {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+	nav a {
+		flex: 1 1 100%;
+	}
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .content{
+        gap: 50px
+    }
+    .content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Tryout code  contain bug */
+/* @media (min-width: 740px) {
+	main {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	main .content {
+		justify-content: flex-end;
+		flex-direction: row;
+	}
+    main .project{
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+	.content a {
+		flex: 1 1 100%;
+	}
+
+    .content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
